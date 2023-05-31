@@ -112,6 +112,10 @@ Haz clic en "Save" para guardar la conexión.\
 
 ¡Ahora deberías poder interactuar con tu base de datos PostgreSQL a través de pgAdmin4!
 
+Deberías poder ver la conexión a la izquierda en PG Admin 4:
+
+<img src="./server_ok.png" alt="successful connection pgadmin" width="50%"/>
+
 
 ## Paso 4: Pasos para crear y usar contenedor de MongoDB
 
@@ -137,6 +141,10 @@ Compass es el visor de las bases de datos de MongoDB, para utilizarlo sigue los 
      
  - En el campo "URI", introduce 'mongodb://localhost:27017' y haz clic  
    en "Connect".
+   
+ Deberías poder ver las bases de datos del contenedor:
+ 
+ <img src="./mongo_success.png" alt="successful connection to mongo" width="50%"/>
 
 
 Fuentes 

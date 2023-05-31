@@ -103,8 +103,11 @@ En la pestaña "Connection", introduce:
  - En "Port": 5432
  - En Maintenance Database : postgres
  - En Username: postgres
+ - Utiliza el password que utilizaste al crear el contenedor &rarr; 123456
+ - Marca "Save Password"
 
-Haz clic en "Save" para guardar la conexión.
+Haz clic en "Save" para guardar la conexión.\
+<img alt="connection" src="./Conexion.png" width="50%">
 
 
 ¡Ahora deberías poder interactuar con tu base de datos PostgreSQL a través de pgAdmin4!

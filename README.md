@@ -3,7 +3,6 @@
 # Tutorial de instalación y uso de Docker, MongoDB y PostgreSQL
 
   
-
 ## Paso 1: Registro en Docker e instalación de Docker Desktop
 
 1.- Entra en https://hub.docker.com/ y haz click en el botón "Register" en la esquina superior derecha, completa el registro.
@@ -71,13 +70,11 @@ For more examples and ideas, visit:
 ```
 
 
-  
-
 ## Paso 2: Creación y uso de contenedores Docker de PostgreSQL
 
+- [Introducción y uso de PostgreSQL + PGAdmin4](./intro_postgresql.md)
 
-
-Debemos crear los contenedores de Docker para PostgreSQL.
+Debemos crear el contenedor de Docker para PostgreSQL. En dicho contenedor se ejecutará nuestro servidor de BBDD PostgreSQL en tu máquina local.
 
 *En macOS, asegurate de que Docker Desktop está abierto de esta forma se inicia un proceso en segundo plano que permite ejecutar los comandos por terminal*
 
@@ -93,7 +90,6 @@ IMPORTANTE--> Tu password será '123456'
 *En macOS puede solicitar ejecutar el comando como super usuario, añadir* sudo *al comienzo del comando*
 
 ## Paso 3: Acceso a los contenedores con pgAdmin4
-
   
 ### PgAdmin4
 
@@ -119,14 +115,15 @@ En la pestaña "Connection", introduce:
  - Marca "Save Password"
 
 Haz clic en "Save" para guardar la conexión.\
-<img alt="connection" src="./Conexion.png" width="50%">
+<img alt="connection" src="./assets/Conexion.png" width="50%">
 
 
 ¡Ahora deberías poder interactuar con tu base de datos PostgreSQL a través de pgAdmin4!
 
 Deberías poder ver la conexión a la izquierda en PG Admin 4:
 
-<img src="./server_ok.png" alt="successful connection pgadmin" width="50%"/>
+<img src="./assets/server_ok.png" alt="successful connection pgadmin" width="50%"/>
+
 
 
 ## Paso 4: Pasos para crear y usar contenedor de MongoDB
@@ -156,7 +153,7 @@ Compass es el visor de las bases de datos de MongoDB, para utilizarlo sigue los 
    
  Deberías poder ver las bases de datos del contenedor:
  
- <img src="./mongo_success.png" alt="successful connection to mongo" width="50%"/>
+ <img src="./assets/mongo_success.png" alt="successful connection to mongo" width="50%"/>
 
 
 Fuentes 

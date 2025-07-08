@@ -140,7 +140,7 @@ Compass es el visor de las bases de datos de MongoDB, para utilizarlo sigue los 
 
  - Descarga e instala MongoDB Compass: 
     - [Windows](https://www.mongodb.com/try/download/compass)
-    - [macOS](https://www.mongodb.com/try/download/compass) v.1.37 (stable), usar dmg 
+    - [macOS](https://www.mongodb.com/try/download/compass) (last stable version), usar dmg 
     <p></p>
 
 

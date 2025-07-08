@@ -85,10 +85,10 @@ Debemos crear los contenedores de Docker para PostgreSQL.
 Ejecuta este comando para ello:
 
 
-``docker run --name some-postgres -e POSTGRES_PASSWORD=<your_password> -d -p 5432:5432 postgres``
+``docker run --name some-postgres -e POSTGRES_PASSWORD=123456 -d -p 5432:5432 postgres``
 
 
-Reemplaza '&lt;your_password&gt;' con '123456'
+IMPORTANTE--> Tu password será '123456'
 
 *En macOS puede solicitar ejecutar el comando como super usuario, añadir* sudo *al comienzo del comando*
 

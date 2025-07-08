@@ -94,8 +94,7 @@ IMPORTANTE--> Tu password será '123456'
 ### PgAdmin4
 
  - Descarga e instala pgAdmin4:
-   - [Windows](https://www.pgadmin.org/download/)
-   - [macOS](https://www.postgresql.org/ftp/pgadmin/pgadmin4/v7.1/macos/)
+   - [Download PGAdmin4](https://www.pgadmin.org/download/)
 
  - Inicia pgAdmin4
 
